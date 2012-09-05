@@ -1,0 +1,30 @@
+{
+    "name" : "plugin-name",
+    "description"   : "plugin description",
+    "version"       : "0.0.1",
+    "homepage"      : "",
+    "author": {
+        "name"  : "",
+        "email" : "",
+        "url"   : ""
+    },
+    "licenses": [{
+        "type": "GPL",
+        "url" : "http://www.gnu.org/licenses/gpl-3.0.txt"
+      },{
+        "type": "MIT",
+        "url" : "http://mit-license.org"
+      }
+    ],
+    "repository": {
+        "type" : "git",
+        "url"  : "git://github.com"
+    },
+    "dependencies": {
+        "jquery"   : ">=1.7"
+    },
+    "devDependencies": {
+        "grunt" : "0.3.x",
+        "qunit" : "1.9.x"
+    }
+}
