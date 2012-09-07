@@ -19,7 +19,7 @@ module.exports = function(grunt){
 				src : [ '<banner>', 'jquery.<%=pkg.name%>.min.js'],
 				dest: 'jquery.<%=pkg.name%>.min.js'
 			}
-		},²
+		},
 		qunit : {
 			all : ['test/*.html']
 		}
